@@ -115,3 +115,22 @@ nav {
 #thirdVideoRowLabel {
   margin-top: 20px;
 }
+
+#screenSizeMessage {
+  display: none;
+}
+
+@media only screen and (max-width: 702px), (min-width: 1400px) {
+  #abnormalScreenSize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .container-fluid {
+    display: none;
+  }
+}
